@@ -39,7 +39,7 @@ development
   .command('setup')
   .description('Setup the development environment')
   .action(() => {
-    executeCommand('~/node-cli/development/setup.sh');
+    executeCommand('~/nodejs-cli-template/development/setup.sh');
     console.log(chalk.green('Development environment setup completed.'));
   });
 
